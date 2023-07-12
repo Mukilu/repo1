@@ -4,3 +4,4 @@ c=a*b
 print(c+a+b)
 print(c%c)
 print(c/c)
+print(a/b)
