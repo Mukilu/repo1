@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senchola Registration form</title>
+</head>
+<body style="background-color:lightsalmon; font-family: 'Times New Roman', Times, serif;"><br>
+    <p style="text-align:center;font-size:35px;font-family:'Times New Roman', Times, serif;"><b> 01. Application Form</b></p><br>
+   <form method="post"><div>
+            <label for="StudentName"> Name : </label>
+            <input type="text" name="Student Name" id="StudentName" placeholder="Student Name" maxlength="20" required >
+        </div><br>
+        <div>
+            <label for="StudentE-Mail"> E-Mail : </label>
+            <input type="email" name="Student E-Mail" id="StudentE-Mail" placeholder="Student E-Mail" required>
+        </div><br>
+        <div>
+            <label for="Male">Gender :</label>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div><br>
+        <div>
+            <label>Choose your Skills</label>
+            <input type="checkbox" name="option1"  value="HTML" style="color:brown;">HTML
+            <input type="checkbox" name="option2"  value="CSS">CSS
+            <input type="checkbox" name="option3"  value="JS ">JS
+            <input type="checkbox" name="option4"  value="BOOTSTRAP">BOOTSTRAP
+            <input type="checkbox" name="option5"  value=" REACT">REACT
+        </div><br>
+        <div>
+            <label for="job">JOB TYPE</label>
+            <select name="job type" id="job" required size="1">
+                <option value="Front-end Devoloper">Front-end Devoloper</option>
+                <option value="back-end Devoloper">back-end Devoloper</option>
+                <option value="UI/UX designer">UI/UX designer</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Content Writer">Content Writer</option>
+                <option value="Cyber security">Cyber security</option></select>
+        </div><br>
+        <div>
+            <label for="Browsertype">Choose the Browser from the list</label>    
+            <select name="Browsertype" id="Browsertype" required>
+                <option value="Chrome">Google chrome</option>
+                <option value="Brave">Brave</option>
+                <option value="Firefox">Mozilla Firefox</option>
+                <option value="Edge">Microsoft Edge</option>
+            </select>
+         </div><br>
+         <div>
+            <label for="About">About</label><br>
+            <textarea name="About" id="About" placeholder="Describe you"></textarea>
+         </div><br>
+    </form>
+    <div>
+        <h2 style="font-size:35px; text-align: center;"><b>02. Batch List</b></h2>
+      </div>
+      <div>
+        <p style="text-align: center;font-size: 30px;">Senchola University</p>
+      </div>
+      <p style="text-align:left;font-size: 25px;">Batch-1</p>
+        <ol type="A" > 
+            <li>Tirupati</li>
+            <li>Elumalai</li>
+            <li>Venkatesaa</li>
+        </ol>
+    <p style="text-align:left;font-size: 25px;">Batch-2</p>
+        <ol type="A">
+            <li>Raja</li>
+            <li>Ramani</li>
+            <li>Raci</li>
+        </ol>
+    <p style="text-align:left;font-size: 25px;">Batch-3</p>
+        <ol type="A">
+        <li>Sticker</li>
+        <li>Aandavar</li>
+        <li>Aiyar</li>
+        </ol><br> </div>
+        <h2 style="font-size:35px; text-align: center;"><b>03. Courses</b></h2>
+     
+    <table border="5" align="center" cellpadding="5" cellspacing="3" >
+        <thead><tr>
+            <th>S.NO 1</th>
+            <th>S.NO 2</th>
+            <th>S.NO 3</th>
+            <th>S.NO 4</th>
+        </tr></thead>
+        <tbody><tr>
+            <td rowspan="2">React JS</td>
+            <td>HTML</td> 
+            <td rowspan="2">React JS</td>
+            <td>CSS</td> 
+        </tr>
+        <tr>
+           <td> CSS</td>
+           <td> HTML</td>
+        </tr>
+        <tr>
+            <td colspan="2">Java Script</td>
+            <td colspan="2">Boot Strap</td>
+        </tr></tbody>
+    </table>   <br> 
+    
+</body>
+</html>
