@@ -1,4 +1,4 @@
-a=int (input())
+"""a=int (input())
 b=int (input())
 c=a+b
 print(c)
@@ -126,7 +126,7 @@ if(a%2==0):
     elif(a>20):
         print("Biggest Weird")
 else:
-    print("Weird")
+    print("Weird")"""
 
 
 
